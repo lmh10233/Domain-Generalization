@@ -33,16 +33,16 @@ We open source the training weights and log files of four experiments.
 <div align="center">
 <table>
   <tr>
-    <th>Column 1</th>
-    <th>Column 2</th>
+    <th>E-M </th>
+    <th>E-D </th>
+    <th>G-M</th>
+    <th>G-D</th>
   </tr>
   <tr>
-    <td>Row 1, Cell 1</td>
-    <td>Row 1, Cell 2</td>
-  </tr>
-  <tr>
-    <td>Row 2, Cell 1</td>
-    <td>Row 2, Cell 2</td>
+    <td> [6.28](https://drive.google.com/drive/folders/13-pi2KcZmG_G11PwINfMplE70KDN73Q0) </td>
+    <td> [6.91](https://drive.google.com/drive/folders/1CpXbNPqkJCRL0dBaOO6hzP_0q2dKBVUk) </td>
+    <td> [6.48](https://drive.google.com/drive/folders/12mebMWkOj1JsbIHGIi0RuEHjahKKHtMy) </td>
+    <td> [8.54](https://drive.google.com/drive/folders/1f2ZnvW02lho2zkD5Neobyyq69bVnUJE_) </td>
   </tr>
 </table>
 </div>
