@@ -1,1 +1,30 @@
+---
+train:
+
+    params:
+        batch_size: 128
+        epoch: 10
+        lr: 0.0001
+        decay: 0.5
+        decay_step: 20
+        warmup: 0
+    
+    save:
+        metapath: "result"
+        folder: eth
+        model_name: dg
+        step: 1
+
+    data:
+        image: "/root/autodl-tmp/eth/Image/Train"
+        label: "/root/autodl-tmp/eth/Label/Train_id.label"
+        header: True
+        name: eth
+        isFolder: False
+
+    device: 0
+
+    reader: reader
+# dropout = 0
+# dim_feed = 512
 
