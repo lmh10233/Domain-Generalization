@@ -25,27 +25,10 @@ MPII and Eyediap are selected as target domain for model testing, you need to ch
 ```
 python test/total.py -s config/train/eth.yaml -t config/test/mpii.yaml
 ```
-We open source the training weights and log files of four experiments.
-| E-M  | E-D | G-M | G-D |
-| ----- | ----- | ----- | ----- |
-| [6.28](https://drive.google.com/drive/folders/13-pi2KcZmG_G11PwINfMplE70KDN73Q0) | [6.91](https://drive.google.com/drive/folders/1CpXbNPqkJCRL0dBaOO6hzP_0q2dKBVUk) | [6.48](https://drive.google.com/drive/folders/12mebMWkOj1JsbIHGIi0RuEHjahKKHtMy) | [8.54](https://drive.google.com/drive/folders/1f2ZnvW02lho2zkD5Neobyyq69bVnUJE_) |
-
-<div align="center">
-<table>
-  <tr>
-    <th>E-M </th>
-    <th>E-D </th>
-    <th>G-M</th>
-    <th>G-D</th>
-  </tr>
-  <tr>
-    <td> [6.28](https://drive.google.com/drive/folders/13-pi2KcZmG_G11PwINfMplE70KDN73Q0) </td>
-    <td> [6.91](https://drive.google.com/drive/folders/1CpXbNPqkJCRL0dBaOO6hzP_0q2dKBVUk) </td>
-    <td> [6.48](https://drive.google.com/drive/folders/12mebMWkOj1JsbIHGIi0RuEHjahKKHtMy) </td>
-    <td> [8.54](https://drive.google.com/drive/folders/1f2ZnvW02lho2zkD5Neobyyq69bVnUJE_) </td>
-  </tr>
-</table>
-</div>
+We open source the training weights and log files of four experiments:  
+| Tasks | E-M  | E-D | G-M | G-D |
+| :---------:| :---------: | :---------: | :---------: | :---------: |
+| Accuracy(°) | [6.28](https://drive.google.com/drive/folders/13-pi2KcZmG_G11PwINfMplE70KDN73Q0) | [6.91](https://drive.google.com/drive/folders/1CpXbNPqkJCRL0dBaOO6hzP_0q2dKBVUk) | [6.48](https://drive.google.com/drive/folders/12mebMWkOj1JsbIHGIi0RuEHjahKKHtMy) | [8.54](https://drive.google.com/drive/folders/1f2ZnvW02lho2zkD5Neobyyq69bVnUJE_) |
 
 # References
 The main references are as follows
