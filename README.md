@@ -59,7 +59,8 @@ The main references are as follows
   year={2023}
 }
 ```
-4. [DomainDrop](https://arxiv.org/abs/2308.10285)[Code](https://github.com/lingeringlight/DomainDrop/blob/main/train_domain.py)
+4. [DomainDrop](https://arxiv.org/abs/2308.10285)
+   [Code](https://github.com/lingeringlight/DomainDrop/blob/main/train_domain.py)
 ```python
 @inproceedings{guo2023domaindrop,
   title={DomainDrop: Suppressing Domain-Sensitive Channels for Domain Generalization},
