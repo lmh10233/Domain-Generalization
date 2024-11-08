@@ -6,7 +6,8 @@ The datasets in our paper are open access. You can download at the following lin
 1. [ETH-XGaze](https://ait.ethz.ch/xgaze?query=eth)
 2. [Gaze360](http://gaze360.csail.mit.edu/)
 3. [MPIIFaceGaze](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/its-written-all-over-your-face-full-face-appearance-based-gaze-estimation)
-4. [Eyediap](https://www.idiap.ch/en/scientific-research/data/eyediap)
+4. [Eyediap](https://www.idiap.ch/en/scientific-research/data/eyediap).
+
 You can refer to [Review and Benchmark](https://phi-ai.buaa.edu.cn/Gazehub/#benchmarks) for the dataset preprocessing.
 
 # Start training 
