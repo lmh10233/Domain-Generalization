@@ -16,7 +16,8 @@ from regressor import Gaze_regressor
 import torchvision
 from warmup_scheduler import GradualWarmupScheduler
 import time
-    
+
+
 def main(train, test, model_type):
     fine_tune = True
     total_training_time = 0  # 初始化总训练时间
