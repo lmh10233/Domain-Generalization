@@ -8,7 +8,7 @@ from torch.utils.data import Dataset, DataLoader
 from torch.utils.data.sampler import SubsetRandomSampler
 from torchvision import transforms
 from torchvision.transforms import ToPILImage
-from transforms.vicreg_transform import VICRegTransform
+from transforms.transform import Transform
 from torchvision import datasets
 from PIL import Image
 
@@ -141,7 +141,7 @@ class trainloader(Dataset):
 
     ## build transforms
     if self.trans:
-        self.transform = VICRegTransform(input_size=224)
+        self.transform = Transform(input_size=224)
         
     else:
         self.transform = None
