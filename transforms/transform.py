@@ -11,7 +11,7 @@ from transforms.solarize import RandomSolarization
 from transforms.utils import IMAGENET_NORMALIZE
 from transforms.Crop import Crop
 
-class VICRegTransform(MultiViewTransform):
+class Transform(MultiViewTransform):
 
     def __init__(
         self,
@@ -34,7 +34,7 @@ class VICRegTransform(MultiViewTransform):
         rr_degrees: Union[None, float, Tuple[float, float]] = None,
         normalize: Union[None, Dict[str, List[float]]] = IMAGENET_NORMALIZE,
     ):
-        view_transform = VICRegViewTransform(
+        view_transform = ViewTransform(
             input_size=input_size,
             cj_prob=cj_prob,
             cj_strength=cj_strength,
@@ -57,7 +57,7 @@ class VICRegTransform(MultiViewTransform):
         super().__init__(transforms=view_transform)
 
 
-class VICRegViewTransform:
+class ViewTransform:
     def __init__(
         self,
         input_size: int = 224,
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     from PIL import Image
     image1 = Image.open("eye_region_crop2.png").convert('RGB')
     # image2 = PIL.Image.open("eye_region_crop2.png").convert('RGB')
-    transform = VICRegTransform()
+    transform = Transform()
     img1, img2 = transform(image1)
     trans_pil = T.ToPILImage()
     im1 = trans_pil(img1)
