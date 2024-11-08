@@ -1,1 +1,24 @@
+---
+test:
 
+    load:
+        begin_step: 10
+        end_step: 100
+        steps: 10
+        
+    data: 
+        image: "/root/autodl-tmp/eyediap/Image"
+        label: "/root/autodl-tmp/eyediap/Label/"
+        name: eyediap
+        header: True
+        isFolder: True
+
+    save: "checkpoints"
+    savename: "evaluation"
+
+    device: 0
+
+    reader: reader
+
+# dropout = 0
+# dim_feed = 512
