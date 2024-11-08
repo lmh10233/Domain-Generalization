@@ -26,7 +26,7 @@ MPII and Eyediap are selected as target domain for model testing, you need to ch
 python test/total.py -s config/train/eth.yaml -t config/test/mpii.yaml
 ```
 
-References
+# References
 The main references are as follows
 1. [Review and Benchmark](https://phi-ai.buaa.edu.cn/Gazehub/#benchmarks)
 ```python
@@ -56,6 +56,15 @@ The main references are as follows
   volume={37},
   number={3},
   pages={3027--3035},
+  year={2023}
+}
+```
+4. [DomainDrop]{https://arxiv.org/abs/2308.10285}{https://github.com/lingeringlight/DomainDrop/blob/main/train_domain.py}
+```python
+@inproceedings{guo2023domaindrop,
+  title={DomainDrop: Suppressing Domain-Sensitive Channels for Domain Generalization},
+  author={Guo, Jintao and Qi, Lei and Shi, Yinghuan},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2023}
 }
 ```
