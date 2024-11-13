@@ -1,5 +1,5 @@
 # Domain-Generalization
-Eliminating Human Identity-sensitive Information for Domain Generalization on Gaze Estimation
+Eliminating Human Identity-sensitive Information for Domain Generalization on Gaze Estimation ![1](image/overall_model.png)
 
 # Dataset preprocessing
 The datasets in our paper are open access. You can download at the following link. Remember to cite the corresponding literatures. 
@@ -29,6 +29,8 @@ We open source the training weights and log files of four experiments:
 | Tasks | E-M  | E-D | G-M | G-D |
 | :---------:| :---------: | :---------: | :---------: | :---------: |
 | Accuracy(°) | [6.28](https://drive.google.com/drive/folders/13-pi2KcZmG_G11PwINfMplE70KDN73Q0) | [6.91](https://drive.google.com/drive/folders/1CpXbNPqkJCRL0dBaOO6hzP_0q2dKBVUk) | [6.48](https://drive.google.com/drive/folders/12mebMWkOj1JsbIHGIi0RuEHjahKKHtMy) | [8.54](https://drive.google.com/drive/folders/1f2ZnvW02lho2zkD5Neobyyq69bVnUJE_) |
+
+The visualization results are saved in image folder. For example, the t-SNE result is: ![2](image/tsne_visual.png)
 
 # References
 The main references are as follows
